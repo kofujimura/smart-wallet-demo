@@ -8,7 +8,7 @@ export function LoginButton() {
   if (isConnected && address) {
     return (
       <div className="flex items-center gap-3">
-        <span className="text-sm text-gray-500 dark:text-gray-400 font-mono truncate max-w-[200px]">
+        <span className="text-sm text-gray-500 dark:text-gray-400 font-mono">
           {address.slice(0, 6)}...{address.slice(-4)}
         </span>
         <button
