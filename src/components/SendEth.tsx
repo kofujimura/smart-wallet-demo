@@ -35,7 +35,7 @@ export function SendEth() {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-6 space-y-4">
-      <h2 className="font-semibold text-gray-900 dark:text-white">ETH 送金</h2>
+      <h2 className="font-semibold text-gray-900 dark:text-white">SepoliaETH 送金</h2>
 
       <div>
         <label className="text-sm text-gray-500 dark:text-gray-400">送り先アドレス</label>
@@ -49,7 +49,7 @@ export function SendEth() {
       </div>
 
       <div>
-        <label className="text-sm text-gray-500 dark:text-gray-400">金額 (ETH)</label>
+        <label className="text-sm text-gray-500 dark:text-gray-400">金額 (SepoliaETH)</label>
         <input
           type="number"
           value={amount}

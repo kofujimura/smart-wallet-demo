@@ -58,7 +58,7 @@ export function BalanceCard() {
       </a>
       <div className="text-sm text-gray-500 dark:text-gray-400 pt-2">残高</div>
       <div className="text-3xl font-bold text-gray-900 dark:text-white">
-        {balance ?? "—"} <span className="text-lg font-normal text-gray-400 dark:text-gray-500">ETH</span>
+        {balance ?? "—"} <span className="text-lg font-normal text-gray-400 dark:text-gray-500">SepoliaETH</span>
       </div>
       <button
         onClick={refreshBalance}
